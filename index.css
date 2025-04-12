@@ -1,0 +1,124 @@
+body{
+    align-items: center;
+    align-content: center;
+    background-color: rgb(212, 234, 234);
+    font-family: sans-serif;
+    justify-content: center;
+    display: flex;
+    height: 100vh; /* Added to center vertically */
+    margin: 0; /* Removes default margin */
+}
+
+.content {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+    .content1{
+        background-color: rgb(55, 55, 237);
+        align-items: center;
+        display: block;
+        justify-content: center;
+        color: aliceblue;
+        align-content: center;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+.content2{
+    background-color: blanchedalmond;
+    align-items: center;
+    align-content: center;
+    padding: 12px;
+    display: block;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 12px;
+    /* justify-content: space-between; */
+}
+
+.content1 .score{
+    border-radius:50%;
+    display: flex;
+    background-color:blue;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    
+
+
+}
+
+.content2 .reaction,
+.content2 .memory,
+.content2 .verbal,
+.content2 .visual {
+  margin: 16px; /* Add spacing between each */
+  /* existing styles */
+}
+
+.content2 .reaction{
+    background-color: rosybrown;
+    /* padding: 5px; */
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    padding: 12px ;
+    justify-content: space-between;
+}
+
+.content2 .memory{
+    background-color: rgb(242, 209, 209);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+.content2 .verbal{
+    background-color: rgb(166, 234, 166);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    justify-content: space-between;
+
+}
+
+.content2 .visual{
+    background-color: rgb(221, 211, 211);
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    width: 100%;
+    color: wheat;
+    background: linear-gradient(135deg, #4a4a4a, #1f1f1f);
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 12px;
+    display: block; 
+    
+}
